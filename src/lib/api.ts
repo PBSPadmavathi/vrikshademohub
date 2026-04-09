@@ -3,7 +3,7 @@
 // 2. Production fallback (Railway)
 // 3. Local development fallback
 const API_BASE_URL = import.meta.env.VITE_API_URL 
-  || "https://vrikshademohub-production.up.railway.app/api";
+  || "http://localhost:8080/api";
 
 console.log("🚀 API Integration: Initializing with Base URL:", API_BASE_URL);
 
