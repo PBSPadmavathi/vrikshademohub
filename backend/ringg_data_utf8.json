@@ -1,0 +1,324 @@
+﻿--- Fetching Ringg.ai Data ---
+
+[1] Agents (Assistants):
+{
+  "status": "success",
+  "data": {
+    "agents": [
+      {
+        "id": "574cac0c-8875-4473-bed4-6572f0739f0d",
+        "agent_display_name": "sai",
+        "agent_type": "outbound",
+        "orchestration_mode": "single_node",
+        "created_at": "2026-04-07T05:34:55.538033+00:00",
+        "updated_at": "2026-04-07T05:34:55.560171+00:00",
+        "template_name": "Single Prompt",
+        "template_label": "general_outbound",
+        "template_icon": "https://assets.desivocal.com/ringg/icons/regular/arrow-up-right.svg",
+        "template_source": "ringg",
+        "template_type": "outbound",
+        "versions": [
+          {
+            "version_id": "e83be54e-986b-4cf2-adc7-e2f178f5b664",
+            "version_slug": "v1"
+          }
+        ],
+        "voice_avatar": "https://assets.ringg.ai/images/avatars/voices/female_7.svg"
+      },
+      {
+        "id": "dc366a32-789d-4771-921f-4fa7c31b634d",
+        "agent_display_name": "EMI",
+        "agent_type": "outbound",
+        "orchestration_mode": "single_node",
+        "created_at": "2026-03-28T09:44:56.398872+00:00",
+        "updated_at": "2026-04-06T12:08:43.953921+00:00",
+        "template_name": "Single Prompt",
+        "template_label": "general_outbound",
+        "template_icon": "https://assets.desivocal.com/ringg/icons/regular/arrow-up-right.svg",
+        "template_source": "ringg",
+        "template_type": "outbound",
+        "versions": [
+          {
+            "version_id": "aeba5f64-30b5-4765-9fa2-253d2f2343d3",
+            "version_slug": "v1"
+          }
+        ],
+        "voice_avatar": "https://assets.ringg.ai/images/avatars/female_1.svg"
+      },
+      {
+        "id": "054b0ac6-b004-4a1b-8c75-23bd7fc8446d",
+        "agent_display_name": "BANKING",
+        "agent_type": "outbound",
+        "orchestration_mode": "single_node",
+        "created_at": "2026-03-28T09:43:39.591241+00:00",
+        "updated_at": "2026-04-06T12:09:03.649104+00:00",
+        "template_name": "Single Prompt",
+        "template_label": "general_outbound",
+        "template_icon": "https://assets.desivocal.com/ringg/icons/regular/arrow-up-right.svg",
+        "template_source": "ringg",
+        "template_type": "outbound",
+        "versions": [
+          {
+            "version_id": "ad68b309-dcf9-4632-8eb5-5ae345a1a0c1",
+            "version_slug": "v1"
+          }
+        ],
+        "voice_avatar": "https://assets.ringg.ai/images/avatars/female_1.svg"
+      },
+      {
+        "id": "8652edc8-fbd0-4d54-9eff-164d8aafda73",
+        "agent_display_name": "fgddf",
+        "agent_type": "outbound",
+        "orchestration_mode": "single_node",
+        "created_at": "2026-03-27T11:54:23.811207+00:00",
+        "updated_at": "2026-03-27T16:28:36.808422+00:00",
+        "template_name": "Upcoming EMI Reminder (Pre-due)",
+        "template_label": "pre_due",
+        "template_icon": "https://assets.desivocal.com/ringg/icons/regular/calendar-dots.svg",
+        "template_source": "ringg",
+        "template_type": "outbound",
+        "versions": [
+          {
+            "version_id": "49957fde-109c-47fe-b79f-49fbbd4ad194",
+            "version_slug": "v1"
+          }
+        ],
+        "voice_avatar": "https://assets.ringg.ai/images/avatars/voices/male_5.svg"
+      },
+      {
+        "id": "74612b13-4c7b-4533-86b6-b31382b387a2",
+        "agent_display_name": "Hello ABC",
+        "agent_type": "outbound",
+        "orchestration_mode": "single_node",
+        "created_at": "2026-03-24T04:37:45.784662+00:00",
+        "updated_at": "2026-04-06T12:08:22.700565+00:00",
+        "template_name": "Single Prompt",
+        "template_label": "general_outbound",
+        "template_icon": "https://assets.desivocal.com/ringg/icons/regular/arrow-up-right.svg",
+        "template_source": "ringg",
+        "template_type": "outbound",
+        "versions": [
+          {
+            "version_id": "afecf7ff-d04c-4267-813d-b4ce32c7d5c0",
+            "version_slug": "v1"
+          }
+        ],
+        "voice_avatar": "https://assets.ringg.ai/images/avatars/voices/female_7.svg"
+      },
+      {
+        "id": "81ce3617-ffe7-43db-acaf-e25f0edee465",
+        "agent_display_name": "heloooo",
+        "agent_type": "outbound",
+        "orchestration_mode": "single_node",
+        "created_at": "2026-03-23T15:31:17.927306+00:00",
+        "updated_at": "2026-03-27T10:13:44.414314+00:00",
+        "template_name": "Single Prompt",
+        "template_label": "general_outbound",
+        "template_icon": "https://assets.desivocal.com/ringg/icons/regular/arrow-up-right.svg",
+        "template_source": "ringg",
+        "template_type": "outbound",
+        "versions": [
+          {
+            "version_id": "90986830-20ae-4df0-b13d-5ba0c6ba5430",
+            "version_slug": "v1"
+          }
+        ],
+        "voice_avatar": "https://assets.ringg.ai/images/avatars/voices/male_5.svg"
+      },
+      {
+        "id": "008980c6-6f29-4930-8527-f6449d8f48e6",
+        "agent_display_name": "Tanya",
+        "agent_type": "outbound",
+        "orchestration_mode": "single_node",
+        "created_at": "2026-03-13T11:14:30.252056+00:00",
+        "updated_at": "2026-03-14T06:02:13.498037+00:00",
+        "template_name": "Single Prompt",
+        "template_label": "general_outbound",
+        "template_icon": "https://assets.desivocal.com/ringg/icons/regular/arrow-up-right.svg",
+        "template_source": "ringg",
+        "template_type": "outbound",
+        "versions": [
+          {
+            "version_id": "dae068d0-c183-4680-8eb4-4b1b5b0e9841",
+            "version_slug": "v1"
+          }
+        ],
+        "voice_avatar": "https://assets.ringg.ai/images/avatars/voices/female_2.svg"
+      },
+      {
+        "id": "36bfc86c-8ce1-4a18-96a3-1c93629a7bab",
+        "agent_display_name": "Tiffany from RINGG AI",
+        "agent_type": "outbound",
+        "orchestration_mode": "single_node",
+        "created_at": "2026-03-13T10:33:08.249540+00:00",
+        "updated_at": "2026-03-13T10:33:08.313243+00:00",
+        "template_name": "general_outbound",
+        "template_label": "general",
+        "template_icon": "gray",
+        "template_source": "ringg",
+        "template_type": "outbound",
+        "versions": [
+          {
+            "version_id": "fc24123c-14c6-42ad-8e05-52ed575d9ff8",
+            "version_slug": "v1"
+          }
+        ],
+        "voice_avatar": "https://assets.ringg.ai/images/avatars/voices/female_4.svg"
+      }
+    ]
+  }
+}
+
+[2] Workspace Phone Numbers:
+{
+  "workspace_numbers": [
+    {
+      "id": "12dcae4c-9294-41db-bbb2-43b8dd5bbc0b",
+      "number": "+18085158398",
+      "created_at": "2025-05-30T09:40:00.915000+00:00",
+      "call_count": 0,
+      "agent": null,
+      "is_inbound_enabled": false,
+      "is_test_number": true,
+      "tags": [],
+      "spam_message": null,
+      "provider": "ringg",
+      "display_name": "Ringg",
+      "owner": "ringg",
+      "is_custom_number": false,
+      "telephony_id": null
+    },
+    {
+      "id": "ffc7dd03-3a4d-46ef-9aab-5aba0699ad36",
+      "number": "+912268095634",
+      "created_at": "2024-12-27T14:57:42.237819+00:00",
+      "call_count": 0,
+      "agent": null,
+      "is_inbound_enabled": false,
+      "is_test_number": true,
+      "tags": [],
+      "spam_message": null,
+      "provider": "ringg",
+      "display_name": "Ringg",
+      "owner": "ringg",
+      "is_custom_number": false,
+      "telephony_id": null
+    }
+  ]
+}
+
+[3] Call History (Recent):
+{
+  "calls": [
+    {
+      "id": "09070c73-2906-42d7-b89a-06786ffe89f2",
+      "to_number": "+919581158927",
+      "name": "bhargavi",
+      "status": "completed",
+      "transcript": "[{\"bot\": \"Hi, is this bhargavi? This is Tanya from Kshema General Insurance. I'm calling to share some quick details about our insurance plans and claims. Is now a good time to talk for two minutes?\", \"message_id\": \"f69bc8df-c60f-436f-9b1c-7e39b90e28ef\", \"timestamp\": \"2026-03-13T11:56:15.739+00:00\"}, {\"user\": \"Okay.\", \"message_id\": \"554530\", \"timestamp\": \"2026-03-13T11:56:28.348+00:00\"}, {\"bot\": \"Just to understand-what kind of insurance are you looking for right now? Is it for you, your family, or for a vehicle or business?\", \"message_id\": \"fa1edc51-10ab-4eb1-bc4c-b84401646b57\", \"timestamp\": \"2026-03-13T11:56:29.566+00:00\"}, {\"user\": \"How many types of insurance\", \"message_id\": \"557585\", \"timestamp\": \"2026-03-13T11:56:40.983+00:00\"}, {\"user\": \"you are providing?\", \"message_id\": \"557867\", \"timestamp\": \"2026-03-13T11:56:42.122+00:00\"}, {\"bot\": \"Okay, Kshema General Insurance provides a few main types of insurance: - Group Personal Accident Policy: covers accidental death and disability for groups. - Individual Personal Accident Policy: covers accidental death and disability for individuals. - Shop Insurance Policy: protects shops and commercial establishments against fire, burglary, and other risks. - Crop Insurance: covers losses to crops for farmers. Does that make sense? Which one are you interested in for yourself or your family, or for your business?\", \"message_id\": \"9fe0f8f3-b444-44d5-b4c1-b3c3eb3bc342\", \"timestamp\": \"2026-03-13T11:56:45.050+00:00\"}, {\"user\": \"Okay. Types of crop insurance?\", \"message_id\": \"565766\", \"timestamp\": \"2026-03-13T11:57:24.345+00:00\"}, {\"bot\": \"Right, Kshema offers crop insurance plans that are comprehensive and customised for small farmers. There are a few types: - Government schemes like Pradhan Mantri Fasal Bima Yojana (PMFBY), which covers food crops, oilseeds, and commercial crops against natural disasters and other risks. - Weather-Based Crop Insurance Scheme (RWBCIS), which compensates for weather-related losses. - Kshema\u2019s own products-Sukriti and Prakriti-tailored to specific crops, regions, and farming needs. These plans can be customised\", \"message_id\": \"2daa4fa2-240e-4744-871b-b105a0b8509e\", \"timestamp\": \"2026-03-13T11:57:26.629+00:00\"}, {\"user\": \"Okay. You can\", \"message_id\": \"569911\", \"timestamp\": \"2026-03-13T11:57:55.859+00:00\"}, {\"bot\": \"Got it, bhargavi. Would you like a quick explanation of the coverage and claim steps for crop insurance, or do you want me to share plan details now?\", \"message_id\": \"88ed19ea-5b4c-4f08-b4c3-ba482634b8b5\", \"timestamp\": \"2026-03-13T11:57:56.730+00:00\"}, {\"user\": \"Blake\", \"message_id\": \"571148\", \"timestamp\": \"2026-03-13T11:58:06.560+00:00\"}, {\"user\": \"would you\", \"message_id\": \"571274\", \"timestamp\": \"2026-03-13T11:58:07.378+00:00\"}, {\"user\": \"explain the difference between Sukruti and Pakruti?\", \"message_id\": \"571707\", \"timestamp\": \"2026-03-13T11:58:10.225+00:00\"}, {\"bot\": \"Okay, here\u2019s the difference: Prakriti is a comprehensive crop insurance solution that protects farmers against eight natural perils, covers one-hundred plus crops, and calculates premium based on cultivation cost, crop duration, and location. Sukriti is also a Kshema product for crop insurance, but the exact details or differences compared to Prakriti are not available in my notes right now. If you want, I can arrange a callback with more details about Sukriti. Would you like that, or should I explain the claim steps for Prakriti now?\", \"message_id\": \"75d0cbd1-9c77-4c68-9a53-614d898f3463\", \"timestamp\": \"2026-03-13T11:58:13.220+00:00\"}, {\"user\": \"Okay. I\", \"message_id\": \"576349\", \"timestamp\": \"2026-03-13T11:58:49.880+00:00\"}, {\"user\": \"Explain the claims.\", \"message_id\": \"576528\", \"timestamp\": \"2026-03-13T11:58:51.038+00:00\"}, {\"user\": \"For Tatati.\", \"message_id\": \"576710\", \"timestamp\": \"2026-03-13T11:58:52.221+00:00\"}, {\"bot\": \"Here\u2019s how claims work for Prakriti crop insurance: If a covered event like flood, hailstorm, fire, or animal attack happens, the farmer can file a claim with Kshema. The insurer will assess the damage to the crops and settle the claim as per the policy terms. The payout is calculated based on the crop loss and the insured value. Want me to share the step-by-step claim process or any other details?\", \"message_id\": \"0d3d9569-da0f-4afb-9856-bcad96542b87\", \"timestamp\": \"2026-03-13T11:58:55.220+00:00\"}, {\"user\": \"Okay. But I have another insurance details.\", \"message_id\": \"580694\", \"timestamp\": \"2026-03-13T11:59:25.363+00:00\"}, {\"user\": \"Like\", \"message_id\": \"580811\", \"timestamp\": \"2026-03-13T11:59:26.124+00:00\"}, {\"user\": \"my friend have a fractured leg.\", \"message_id\": \"581172\", \"timestamp\": \"2026-03-13T11:59:28.489+00:00\"}, {\"user\": \"Is there any policy? Is there for,\", \"message_id\": \"581623\", \"timestamp\": \"2026-03-13T11:59:31.469+00:00\"}, {\"bot\": \"Right, bhargavi. Yes, Kshema has personal accident policies that cover accidental injuries like fractures. There are two main options: - Group Personal Accident Policy: For groups, covers accidental death and disablement, including fractures. - Individual Personal Accident Policy: For individuals, covers accidental death, permanent and temporary disability, and weekly benefits for temporary total disablement. So, your friend can\", \"message_id\": \"530bb0ad-000e-4420-a592-8061dd545f42\", \"timestamp\": \"2026-03-13T11:59:32.734+00:00\"}, {\"user\": \"like, my friend have only\", \"message_id\": \"585840\", \"timestamp\": \"2026-03-13T12:00:03.783+00:00\"}, {\"user\": \"one month\", \"message_id\": \"586004\", \"timestamp\": \"2026-03-13T12:00:04.849+00:00\"}, {\"user\": \"rest for the fractured leg.\", \"message_id\": \"586566\", \"timestamp\": \"2026-03-13T12:00:08.763+00:00\"}, {\"user\": \"Is\", \"message_id\": \"586773\", \"timestamp\": \"2026-03-13T12:00:10.459+00:00\"}, {\"user\": \"Samsung the temporary or\", \"message_id\": \"587158\", \"timestamp\": \"2026-03-13T12:00:12.986+00:00\"}, {\"user\": \"permanent?\", \"message_id\": \"587302\", \"timestamp\": \"2026-03-13T12:00:13.919+00:00\"}, {\"bot\": \"Okay, let me clarify for you, bhargavi. In Kshema\u2019s Individual Personal Accident Policy, there are two types of disability covered: - Temporary Total Disability: This is for injuries like a fractured leg where you need rest and cannot work for a period (for example, one month). The policy offers a weekly benefit payout for this. - Permanent Disability: This is for injuries that cause lasting or lifelong loss of function. So, for your friend\u2019s fractured leg and one-month rest, it falls under temporary total disablement. The policy can provide weekly payouts during the recovery\", \"message_id\": \"1376f363-1eb0-495d-811b-efd317626fdf\", \"timestamp\": \"2026-03-13T12:00:15.651+00:00\"}, {\"user\": \"pricing\", \"message_id\": \"594024\", \"timestamp\": \"2026-03-13T12:00:53.519+00:00\"}, {\"bot\": \"I don\u2019t have the exact\", \"message_id\": \"18015d22-abfb-4d46-b6df-ca89d522bd76\", \"timestamp\": \"2026-03-13T12:00:55.380+00:00\"}, {\"user\": \"Could you please share the price?\", \"message_id\": \"595590\", \"timestamp\": \"2026-03-13T12:00:57.044+00:00\"}, {\"bot\": \"I don\u2019t have the exact price for the Kshema Individual Personal Accident Policy right now. The premium depends on the plan chosen and coverage options. If you want, I can arrange a callback with the exact pricing details, or share what\u2019s available about the coverage and benefits. What would you prefer, bhargavi?\", \"message_id\": \"382892f4-b813-4212-a2cb-3c77db6dde83\", \"timestamp\": \"2026-03-13T12:00:58.961+00:00\"}, {\"user\": \"Like, would you like\", \"message_id\": \"601342\", \"timestamp\": \"2026-03-13T12:01:19.021+00:00\"}, {\"user\": \"explain the coverage?\", \"message_id\": \"601734\", \"timestamp\": \"2026-03-13T12:01:20.340+00:00\"}, {\"bot\": \"Sure, bhargavi. The Kshema Individual Personal Accident Policy covers: - Accidental death (full payout) - Permanent total disability - Permanent partial disability - Temporary total disability (weekly benefit for up to one hundred four weeks) You can choose from three plans: Plan A covers death only, Plan B covers death plus permanent disabilities, and Plan C covers death, permanent disabilities, and temporary total disablement. Does that make sense? Want more details on claim steps or anything else?\", \"message_id\": \"15200457-eb9b-4a55-9a22-187d4bf2213e\", \"timestamp\": \"2026-03-13T12:01:22.667+00:00\"}, {\"user\": \"No. Nothing.\", \"message_id\": \"611261\", \"timestamp\": \"2026-03-13T12:01:57.597+00:00\"}, {\"user\": \"But, I made\", \"message_id\": \"611772\", \"timestamp\": \"2026-03-13T12:01:59.741+00:00\"}, {\"user\": \"to know the\", \"message_id\": \"612206\", \"timestamp\": \"2026-03-13T12:02:01.524+00:00\"}, {\"bot\": \"Alright, that\u2019s done from my side. If you want, I can share the key points again quickly later. Bye!\", \"message_id\": \"e4d7e3e4-7cb7-43de-bc3e-8311ac9b9f1f\", \"timestamp\": \"2026-03-13T12:02:03.119+00:00\"}]",
+      "audio_recording": "https://aps1.media.plivo.com/v1/Account/MAZJNLNJIYNWMZYZHIMM/Recording/64092cc7-8df6-4142-aa2c-87ed13dfdf8f.mp3",
+      "created_at": "2026-03-13T11:56:07.679258+00:00",
+      "agent": {
+        "id": "008980c6-6f29-4930-8527-f6449d8f48e6",
+        "agent_name": "Tanya",
+        "agent_version_id": "dae068d0-c183-4680-8eb4-4b1b5b0e9841",
+        "orchestration_mode": "single_node",
+        "version": {
+          "version_id": "dae068d0-c183-4680-8eb4-4b1b5b0e9841",
+          "version_slug": "v1"
+        }
+      },
+      "call_duration": 355.07,
+      "call_attempt_time": "2026-03-13T11:56:07.675227+00:00",
+      "call_cost": 54.0,
+      "currency": "INR",
+      "call_type": "outbound",
+      "inbound_from": null,
+      "from_numbers": [
+        "+912268095634"
+      ],
+      "voicemail_detected": false,
+      "simulation": false,
+      "next_attempt_time": "2026-03-13T11:56:06.878229+00:00",
+      "bulk_list_id": null,
+      "call_sid": "deac2981-7def-4861-8174-35ba7ac9d53c",
+      "is_transfer": false
+    },
+    {
+      "id": "4085c3c5-f2f6-44b7-b044-27b011c80db0",
+      "to_number": "+919581158927",
+      "name": "bhargavi",
+      "status": "completed",
+      "transcript": "[{\"bot\": \"Hi, is this bhargavi? This is Tanya from Kshema General Insurance. I'm calling to share some quick details about our insurance plans and claims. Is now a good time to talk for two minutes?\", \"message_id\": \"92b0f1a5-7671-46f0-a429-9e9fb99b04c5\", \"timestamp\": \"2026-03-13T11:44:03.389+00:00\"}, {\"user\": \"Okay.\", \"message_id\": \"717850\", \"timestamp\": \"2026-03-13T11:44:16.599+00:00\"}, {\"bot\": \"Just to understand-what kind of insurance are you looking for right now? Is it for you, your family, or for a vehicle or business?\", \"message_id\": \"e8ac3cd7-4ad3-45a2-95ec-b35f2f77b9df\", \"timestamp\": \"2026-03-13T11:44:18.535+00:00\"}, {\"user\": \"Hello?\", \"message_id\": \"719243\", \"timestamp\": \"2026-03-13T11:44:29.622+00:00\"}, {\"bot\": \"Yes, bhargavi, I\u2019m here. Just to confirm-are you interested in insurance for yourself, your family, a vehicle, or your business?\", \"message_id\": \"40590cab-eece-4479-9cfb-3675fd850873\", \"timestamp\": \"2026-03-13T11:44:31.166+00:00\"}, {\"user\": \"For cop insurance, it's Aetna.\", \"message_id\": \"720929\", \"timestamp\": \"2026-03-13T11:44:44.151+00:00\"}, {\"bot\": \"Okay, I understand you mentioned \\\"cop insurance\\\" and Aetna. I\u2019m sharing information only about Kshema General Insurance plans as per my notes. If you\u2019re looking for a specific type of insurance-like health, motor, or business-under Kshema, let me know and I\u2019ll explain those options. Would you like details about health insurance, vehicle insurance, or something else from Kshema?\", \"message_id\": \"611333fe-37a4-4ff2-b178-700f59197d2a\", \"timestamp\": \"2026-03-13T11:44:45.439+00:00\"}, {\"user\": \"Cop insurance. I want\", \"message_id\": \"724233\", \"timestamp\": \"2026-03-13T11:45:11.460+00:00\"}, {\"bot\": \"Right, bhargavi. I don\u2019t have exact details about \u201ccop insurance\u201d in my Kshema notes right now. I can share information about health,\", \"message_id\": \"84124eee-0b9e-4681-86ad-7d666cccc6e7\", \"timestamp\": \"2026-03-13T11:45:12.926+00:00\"}, {\"user\": \"Copcroft incident.\", \"message_id\": \"725714\", \"timestamp\": \"2026-03-13T11:45:20.930+00:00\"}, {\"bot\": \"I\u2019m sorry, bhargavi, but I don\u2019t have any information about the \u201cCopcroft incident\u201d\", \"message_id\": \"e1d28929-44e0-47a4-a8b6-ee9d00ae294b\", \"timestamp\": \"2026-03-13T11:45:22.492+00:00\"}, {\"user\": \"Like, I have\", \"message_id\": \"726967\", \"timestamp\": \"2026-03-13T11:45:28.204+00:00\"}, {\"user\": \"I have\", \"message_id\": \"727140\", \"timestamp\": \"2026-03-13T11:45:29.402+00:00\"}, {\"user\": \"Like, I have agriculture land.\", \"message_id\": \"727575\", \"timestamp\": \"2026-03-13T11:45:32.341+00:00\"}, {\"user\": \"I'm calculating salary.\", \"message_id\": \"728251\", \"timestamp\": \"2026-03-13T11:45:35.243+00:00\"}, {\"bot\": \"Got it, bhargavi. You have agriculture land and are looking for insurance options related to that. I\u2019ll check if Kshema General Insurance offers any plans for agriculture land coverage. Let me quickly look up what\u2019s available for agriculture land insurance in my Kshema notes.\", \"message_id\": \"054c3905-f3aa-4fc8-955a-25b53a5be8b3\", \"timestamp\": \"2026-03-13T11:45:33.475+00:00\"}]",
+      "audio_recording": "https://aps1.media.plivo.com/v1/Account/MAZJNLNJIYNWMZYZHIMM/Recording/6bbdc13e-34fd-4cf4-a055-371ee3c81cc6.mp3",
+      "created_at": "2026-03-13T11:43:54.290244+00:00",
+      "agent": {
+        "id": "008980c6-6f29-4930-8527-f6449d8f48e6",
+        "agent_name": "Tanya",
+        "agent_version_id": "dae068d0-c183-4680-8eb4-4b1b5b0e9841",
+        "orchestration_mode": "single_node",
+        "version": {
+          "version_id": "dae068d0-c183-4680-8eb4-4b1b5b0e9841",
+          "version_slug": "v1"
+        }
+      },
+      "call_duration": 108.78,
+      "call_attempt_time": "2026-03-13T11:43:54.284963+00:00",
+      "call_cost": 18.0,
+      "currency": "INR",
+      "call_type": "outbound",
+      "inbound_from": null,
+      "from_numbers": [
+        "+912268095634"
+      ],
+      "voicemail_detected": false,
+      "simulation": false,
+      "next_attempt_time": "2026-03-13T11:43:53.473695+00:00",
+      "bulk_list_id": null,
+      "call_sid": "e7e4bb63-8dd8-4b7c-8ec5-5da9f4363b97",
+      "is_transfer": false
+    },
+    {
+      "id": "9da81de9-9a08-48e7-867b-ba4837724aa0",
+      "to_number": "+919581158927",
+      "name": "bhargavi pennada",
+      "status": "completed",
+      "transcript": "[{\"bot\": \"Hi, is this bhargavi pennada? This is Tanya from Kshema General Insurance. I'm calling to share some quick details about our insurance plans and claims. Is now a good time for a brief chat?\", \"message_id\": \"2481ac60-7010-444e-b923-cf73f9907afc\", \"timestamp\": \"2026-03-13T11:26:55.101+00:00\"}, {\"user\": \"Okay.\", \"message_id\": \"358102\", \"timestamp\": \"2026-03-13T11:27:08.917+00:00\"}, {\"bot\": \"Just to understand-what kind of insurance are you looking for right now? Is it for you, your family, or for a vehicle or business?\", \"message_id\": \"5f2a8c01-368e-4a87-ba38-c78026e90b85\", \"timestamp\": \"2026-03-13T11:27:10.357+00:00\"}, {\"user\": \"Yes.\", \"message_id\": \"359363\", \"timestamp\": \"2026-03-13T11:27:19.904+00:00\"}, {\"user\": \"For business.\", \"message_id\": \"359510\", \"timestamp\": \"2026-03-13T11:27:20.856+00:00\"}, {\"user\": \"Plans you are\", \"message_id\": \"359765\", \"timestamp\": \"2026-03-13T11:27:22.399+00:00\"}, {\"user\": \"providing for business?\", \"message_id\": \"359986\", \"timestamp\": \"2026-03-13T11:27:23.842+00:00\"}, {\"bot\": \"Okay, for businesses, Kshema offers two main plans: First, there\u2019s the Kshema Shop Insurance Policy. It protects shops and commercial establishments against losses from fire, burglary, and other risks. This plan covers your building, stock-in-trade, equipment, and business contents. It\u2019s designed for small shops, commercial outlets, and service businesses. Second, there\u2019s the Kshema Group Personal Accident Policy. This plan gives financial protection to group members in case of accidental death or disability. It covers permanent and temporary disablement, and there\u2019s a weekly benefit for temporary total disablement. Does that make sense? Would you like more details about coverage or claim steps\", \"message_id\": \"5de9f9fb-390e-4069-bb34-0d9570e99e16\", \"timestamp\": \"2026-03-13T11:27:25.973+00:00\"}, {\"user\": \"Please.\", \"message_id\": \"365205\", \"timestamp\": \"2026-03-13T11:28:06.335+00:00\"}, {\"user\": \"You\", \"message_id\": \"365366\", \"timestamp\": \"2026-03-13T11:28:07.379+00:00\"}, {\"user\": \"like, please you tell slowly.\", \"message_id\": \"366471\", \"timestamp\": \"2026-03-13T11:28:10.145+00:00\"}, {\"user\": \"Too fast, I think.\", \"message_id\": \"367182\", \"timestamp\": \"2026-03-13T11:28:11.964+00:00\"}, {\"bot\": \"Right, I\u2019ll explain slowly. So, the first plan is Kshema Shop Insurance Policy. It protects your shop or business from losses like fire, burglary, and other risks. You get coverage for your building, stock, equipment, and business contents. The\", \"message_id\": \"08d5e15d-4e8f-4bb9-bd8d-b300035bbaeb\", \"timestamp\": \"2026-03-13T11:28:13.088+00:00\"}, {\"user\": \"Okay. Fine for that.\", \"message_id\": \"371337\", \"timestamp\": \"2026-03-13T11:28:29.408+00:00\"}, {\"user\": \"Is there any crop insurance\", \"message_id\": \"371767\", \"timestamp\": \"2026-03-13T11:28:32.223+00:00\"}, {\"user\": \"How many types are there?\", \"message_id\": \"372243\", \"timestamp\": \"2026-03-13T11:28:35.741+00:00\"}, {\"bot\": \"Okay, yes-Kshema does offer crop insurance. There are a few types\", \"message_id\": \"cdc463f4-11cc-4b81-8917-6a49d7350b54\", \"timestamp\": \"2026-03-13T11:28:37.868+00:00\"}, {\"user\": \"Yeah.\", \"message_id\": \"373343\", \"timestamp\": \"2026-03-13T11:28:41.713+00:00\"}, {\"bot\": \"So, basically, Kshema\u2019s crop insurance options include: one. Government-backed plans like Pradhan Mantri Fasal Bima Yojana (PMFBY)-these cover notified crops and offer subsidised premiums. two. Weather-based crop insurance schemes-these compensate farmers for losses from unseasonal rain or temperature changes. three. Private plans like Kshema\u2019s own seasonal risk-cover options-these can be customised for specific crops and regions. Would you like to know how the claim process works for crop insurance, or details about coverage?\", \"message_id\": \"4654ffdc-d098-4000-9150-9a1f8ed6ff67\", \"timestamp\": \"2026-03-13T11:28:43.036+00:00\"}, {\"user\": \"Like,\", \"message_id\": \"377129\", \"timestamp\": \"2026-03-13T11:29:13.448+00:00\"}, {\"user\": \"Sheema Samriddhi and Sheema Sukriti, they are not\", \"message_id\": \"377840\", \"timestamp\": \"2026-03-13T11:29:18.119+00:00\"}, {\"bot\": \"I don\u2019t have exact details about \u201cSheema Samriddhi\u201d or \u201cSheema Sukriti\u201d in my notes right now. What I do have is information on Kshema\u2019s crop insurance options, government schemes like PMFBY, weather-based plans, and customised seasonal covers. Would you like a summary of the available crop insurance plans, or should I arrange a callback\", \"message_id\": \"bd357411-fbc4-49bf-afbe-4568c3067494\", \"timestamp\": \"2026-03-13T11:29:19.919+00:00\"}, {\"user\": \"Okay. Are you providing any fire insurance\", \"message_id\": \"380926\", \"timestamp\": \"2026-03-13T11:29:41.817+00:00\"}, {\"user\": \"plan?\", \"message_id\": \"381052\", \"timestamp\": \"2026-03-13T11:29:42.651+00:00\"}, {\"bot\": \"Yes, Kshema does provide fire insurance plans. The Kshema Shop Insurance Policy covers losses from fire for shops and commercial establishments. It protects your building, stock, equipment, and business contents against fire and other risks. Do you want to know the claim process or more about coverage?\", \"message_id\": \"fde03098-228e-411c-9056-440e1fafdef0\", \"timestamp\": \"2026-03-13T11:29:44.441+00:00\"}, {\"user\": \"Okay. But fine.\", \"message_id\": \"385859\", \"timestamp\": \"2026-03-13T11:30:05.313+00:00\"}, {\"user\": \"Is there any health insurance\", \"message_id\": \"385996\", \"timestamp\": \"2026-03-13T11:30:06.192+00:00\"}, {\"user\": \"plans are there, like,\", \"message_id\": \"386238\", \"timestamp\": \"2026-03-13T11:30:07.755+00:00\"}, {\"user\": \"my friend is, like, one leg is fractured.\", \"message_id\": \"387812\", \"timestamp\": \"2026-03-13T11:30:12.761+00:00\"}, {\"user\": \"Is there any plan suitable for\", \"message_id\": \"388258\", \"timestamp\": \"2026-03-13T11:30:14.637+00:00\"}, {\"user\": \"my friend?\", \"message_id\": \"388445\", \"timestamp\": \"2026-03-13T11:30:15.433+00:00\"}, {\"bot\": \"Okay, for your friend with a fractured leg, Kshema offers the Individual Personal Accident Policy. This plan covers disabilities\", \"message_id\": \"59487103-925d-4e6d-a012-b31edee65bc7\", \"timestamp\": \"2026-03-13T11:30:17.978+00:00\"}, {\"user\": \"Okay.\", \"message_id\": \"390827\", \"timestamp\": \"2026-03-13T11:30:24.928+00:00\"}, {\"bot\": \"Sorry, can you please repeat that? I couldn\u2019t hear you clearly.\", \"message_id\": \"9ecce669-2cce-423b-ac25-4444b676cc51\", \"timestamp\": \"2026-03-13T11:30:31.380+00:00\"}, {\"user\": \"it's okay. You continue on\", \"message_id\": \"394346\", \"timestamp\": \"2026-03-13T11:30:39.644+00:00\"}, {\"user\": \"personal accident\", \"message_id\": \"394886\", \"timestamp\": \"2026-03-13T11:30:41.591+00:00\"}, {\"user\": \"plan.\", \"message_id\": \"394987\", \"timestamp\": \"2026-03-13T11:30:42.009+00:00\"}, {\"bot\": \"Right, I\u2019ll continue. The Kshema Individual Personal Accident Policy covers loss of life and disabilities due to accidents. There are three plan options: Plan\", \"message_id\": \"5a10d248-792c-4f72-9097-7cf56bb83918\", \"timestamp\": \"2026-03-13T11:30:43.343+00:00\"}]",
+      "audio_recording": "https://aps1.media.plivo.com/v1/Account/MAZJNLNJIYNWMZYZHIMM/Recording/8a93d10f-13d0-46c7-85d7-b56e925131d7.mp3",
+      "created_at": "2026-03-13T11:26:47.749198+00:00",
+      "agent": {
+        "id": "008980c6-6f29-4930-8527-f6449d8f48e6",
+        "agent_name": "Tanya",
+        "agent_version_id": "dae068d0-c183-4680-8eb4-4b1b5b0e9841",
+        "orchestration_mode": "single_node",
+        "version": {
+          "version_id": "dae068d0-c183-4680-8eb4-4b1b5b0e9841",
+          "version_slug": "v1"
+        }
+      },
+      "call_duration": 238.42,
+      "call_attempt_time": "2026-03-13T11:26:47.744447+00:00",
+      "call_cost": 36.0,
+      "currency": "INR",
+      "call_type": "outbound",
+      "inbound_from": null,
+      "from_numbers": [
+        "+912268095634"
+      ],
+      "voicemail_detected": false,
+      "simulation": false,
+      "next_attempt_time": "2026-03-13T11:26:46.254542+00:00",
+      "bulk_list_id": null,
+      "call_sid": "36e0906c-af95-4781-9d4f-cb4430947682",
+      "is_transfer": false
+    }
+  ],
+  "limit": 5,
+  "offset": 0,
+  "count": 3,
+  "total": "many"
+}
+
+--- Summary ---
+Total Agents: 0
+Total Calls Fetched: 3
