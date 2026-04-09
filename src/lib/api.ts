@@ -1,4 +1,29 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8000/api";
+// Resolve the API URL: 
+// 1. User specified environment variable
+// 2. Production fallback (Railway)
+// 3. Local development fallback
+const API_BASE_URL = import.meta.env.VITE_API_URL 
+  || "https://vrikshademohub-production.up.railway.app/api";
+
+console.log("🚀 API Integration: Initializing with Base URL:", API_BASE_URL);
+
+// Helper for consistent error handling and response parsing
+const handleResponse = async (response: Response) => {
+  if (!response.ok) {
+    const errorText = await response.text();
+    console.error(`❌ API Error [${response.status}]:`, errorText);
+    throw new Error(`API Error: ${response.status} - ${errorText || response.statusText}`);
+  }
+  
+  try {
+    const data = await response.json();
+    if (!data) throw new Error("API returned an empty response");
+    return data;
+  } catch (e) {
+    console.error("❌ Failed to parse API response:", e);
+    throw new Error("Malfomed API response");
+  }
+};
 
 export interface CreateCallPayload {
   name: string;
@@ -10,8 +35,7 @@ export interface CreateCallPayload {
 export const api = {
   async fetchCallHistory(useCaseId: string) {
     const response = await fetch(`${API_BASE_URL}/calls/history/${useCaseId}`);
-    if (!response.ok) throw new Error("Failed to fetch call history");
-    return response.json();
+    return handleResponse(response);
   },
 
   async initiateCall(payload: CreateCallPayload) {
@@ -27,14 +51,12 @@ export const api = {
         use_case_id: payload.useCaseId,
       }),
     });
-    if (!response.ok) throw new Error("Failed to initiate call");
-    return response.json();
+    return handleResponse(response);
   },
 
   async fetchCallDetails(callId: string) {
     const response = await fetch(`${API_BASE_URL}/calls/${callId}`);
-    if (!response.ok) throw new Error("Failed to fetch call details");
-    return response.json();
+    return handleResponse(response);
   },
   
   async fetchRinggHistory(agentId?: string, agentNameFilter?: string) {
@@ -45,19 +67,16 @@ export const api = {
     if (params.toString()) url += `?${params.toString()}`;
 
     const response = await fetch(url);
-    if (!response.ok) throw new Error("Failed to fetch Ringg history");
-    return response.json();
+    return handleResponse(response);
   },
 
   async fetchRinggAgents() {
     const response = await fetch(`${API_BASE_URL}/ringg/agents`);
-    if (!response.ok) throw new Error("Failed to fetch Ringg agents");
-    return response.json();
+    return handleResponse(response);
   },
 
   async fetchRinggNumbers() {
     const response = await fetch(`${API_BASE_URL}/ringg/numbers`);
-    if (!response.ok) throw new Error("Failed to fetch Ringg phone numbers");
-    return response.json();
+    return handleResponse(response);
   },
 };
